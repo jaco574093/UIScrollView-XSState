@@ -11,11 +11,11 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/jaco574093/UIScrollView-XSState"
-
-  spec.license      = "MIT"
+  # spec.license      = "MIT"
+  spec.license		= { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "雅各" => "jaco574093@gmail.com" }
 
-
+  spec.platform		= :ios, "10.0"
   spec.source       = { :git => "https://github.com/jaco574093/UIScrollView-XSState.git", :tag => "1.0.0" }
 
   spec.source_files  = "*.{h,m}"
